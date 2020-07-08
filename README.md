@@ -13,6 +13,7 @@ npm install
 ```bash
 using "npx sequelize" instead of just sequelize (deprecated).
  - npx sequelize init (initiating config file)
+ - npx sequelize model:generate --name Users --attributes first_name:string,last_name:string,bio:text (example initiate model)
 ```
 
 ## Contributing
